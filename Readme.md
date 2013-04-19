@@ -31,7 +31,7 @@ app.get('/', function(req, res) {
   res.csv([
     ["a", "b", "c"]
   , ["d", "e", "f"]
-  ]);
+  ], 'download-filename.csv');
 });
 
 app.listen(3000);
