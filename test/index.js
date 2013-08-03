@@ -49,7 +49,7 @@ describe('express-csv', function() {
   });
 
   it('should extend res.csv', function() {
-    if (express.version.match(/^2\.[0-9]+\.[0-9]+$/)) {
+    if (express.version && express.version.match(/^2\.[0-9]+\.[0-9]+$/)) {
       // express 2.x
       require('http').ServerResponse.prototype.csv.should.be.a('function');
     } else {

@@ -11,7 +11,7 @@
     "mocha": "*"
   , "should": "*"
   , "superagent": "*"
-  , "express": "2"
+  , "express": ">2"
   }
 , "keywords": ["express", "csv"]
 , "repository": "git://github.com/nulltask/express-csv.git"
